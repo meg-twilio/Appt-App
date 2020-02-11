@@ -39,10 +39,10 @@ router.post('/', function(req, res, next) {
   const time = moment(req.body.time, 'MM-DD-YYYY hh:mma');
 
   const appointment = new Appointment({name: name,
-                                       phoneNumber: phoneNumber,
-                                       notification: notification,
-                                       timeZone: timeZone,
-                                       time: time});
+    phoneNumber: phoneNumber,
+    notification: notification,
+    timeZone: timeZone,
+    time: time});
   appointment.save()
     .then(function() {
       res.redirect('/');
