@@ -18,5 +18,22 @@
   "bugs": {
     "url": "https://github.com/meg-twilio/Appt-App/issues"
   },
-  "homepage": "https://github.com/meg-twilio/Appt-App#readme"
+  "homepage": "https://github.com/meg-twilio/Appt-App#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.4",
+    "cron": "^1.8.2",
+    "debug": "^4.1.1",
+    "dotenv-safe": "^8.2.0",
+    "eslint": "^6.8.0",
+    "express": "^4.17.1",
+    "moment": "^2.24.0",
+    "moment-timezone": "^0.5.27",
+    "mongoose": "^5.8.11",
+    "morgan": "^1.9.1",
+    "npm": "^6.13.7",
+    "pug": "^2.0.4",
+    "serve-favicon": "^2.5.0",
+    "twilio": "^3.39.4"
+  }
 }
